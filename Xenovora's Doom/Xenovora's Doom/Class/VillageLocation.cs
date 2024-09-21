@@ -55,7 +55,8 @@
             }
         }
 
-
-
+        public void Rest(MainCharacter player) {
+            // TODO
+        }
     }
 }
