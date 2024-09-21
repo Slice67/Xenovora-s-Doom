@@ -12,7 +12,7 @@ namespace Xenovora_s_Doom.Class {
             this.player = player;
             this.game = game;
 
-            gameTimer = new System.Timers.Timer(60000); // 10 sekund
+            gameTimer = new System.Timers.Timer(60000); // 1 minuta
             gameTimer.Elapsed += OnTimedEvent;
             gameTimer.AutoReset = true;
             gameTimer.Enabled = true;
@@ -25,11 +25,19 @@ namespace Xenovora_s_Doom.Class {
         }
 
         private void UpdateGameState() {
-            player.Hunger--;
-            player.Thirst--;
-            
-            //regenerace HP z jídla když je >50%
-            //ubírání HP když je jídlo nebo voda <30%
+            if ( player.Hunger > 50 && player.Health != 100) {
+                player.Health++;
+            }
+
+            if (player.Hunger == 0 && player.Health != 0 ) {
+                player.Health--;
+                Console.WriteLine("Měl bys něco sníst!");
+            }
+
+            if ( player.Thirst <= 30 && player.Stamina != 0 ) {
+                player.Stamina--;
+                Console.WriteLine("Měl by ses něčeho napít!");
+            }
 
             village.WaterSupply--;
             village.WoodSupply--;
@@ -49,8 +57,6 @@ namespace Xenovora_s_Doom.Class {
                 village.WoodSupply = 0;
                 Console.WriteLine("Zásoby dřeva došly!");
             }
-
-            //Console.WriteLine("Stavy postav a vesnice byly aktualizovány.");
         }
 
         public void StopTimer() {

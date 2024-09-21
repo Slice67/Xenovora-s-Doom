@@ -9,8 +9,9 @@
 
         public override void ShowActions() {
             Console.WriteLine("1) Odpočívat.");
-            Console.WriteLine("2) Jít do lesa");
-
+            Console.WriteLine("2) Jít do lesa.");
+            Console.WriteLine("3) Zkontrolovat status osadníků.");
+            Console.WriteLine("4) Status zásob.");
             // TODO přidat možnost odevzdat ulovenou kořist nebo dřevo, až bude inventář
         }
 
@@ -23,7 +24,31 @@
                     Console.WriteLine("Vydáváš se do lesa.");
                     game.ChangeLocation(new ForestLocation());
                     break;
-                    //TODO moznost zkontrolovat statusy rodin
+                case 3:
+                    int anotherChoice;
+                    Console.WriteLine("Jakou rodinu chceš zkontrolovat?\n1) Luminara\n2) Stormwind\n3) Nightshade\n4) Ironwood");
+                    if ( int.TryParse(Console.ReadLine(), out anotherChoice) ) {
+
+                        switch ( anotherChoice ) { 
+                        case 1:
+                            village.PrintSettlerFamily("Luminara");
+                            break;
+                        case 2:
+                            village.PrintSettlerFamily("Stormwind");
+                            break;
+                        case 3:
+                            village.PrintSettlerFamily("Nightshade");
+                            break;
+                        case 4:
+                            village.PrintSettlerFamily("Ironwood");
+                            break;
+                        }
+                    }
+                    break;
+                case 4:
+                    Console.WriteLine("Status zásob.");
+                    village.PrintSupplies();
+                    break;
                 default:
                     Console.WriteLine("Neplatná volba");
                     break;

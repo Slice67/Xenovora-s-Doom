@@ -13,10 +13,8 @@
         }
 
         public void PrintFamilyMembers() {
-            Console.WriteLine($"Rodina {FamilyName}:");
             foreach ( var member in Members ) {
-                Console.WriteLine($"- {member.Name}");
-                Console.Write($" - status: \n{member.CheckStatus}"); // TODO udelat timer
+                member.CheckStatus();
             }
         }
     }

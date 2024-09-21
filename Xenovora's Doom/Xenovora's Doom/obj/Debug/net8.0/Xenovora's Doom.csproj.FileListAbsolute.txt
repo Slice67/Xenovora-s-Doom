@@ -26,3 +26,4 @@ E:\Xenovora-s-Doom\Xenovora's Doom\Xenovora's Doom\obj\Debug\net8.0\refint\Xenov
 E:\Xenovora-s-Doom\Xenovora's Doom\Xenovora's Doom\obj\Debug\net8.0\Xenovora's Doom.pdb
 E:\Xenovora-s-Doom\Xenovora's Doom\Xenovora's Doom\obj\Debug\net8.0\Xenovora's Doom.genruntimeconfig.cache
 E:\Xenovora-s-Doom\Xenovora's Doom\Xenovora's Doom\obj\Debug\net8.0\ref\Xenovora's Doom.dll
+E:\Xenovora-s-Doom\Xenovora's Doom\Xenovora's Doom\obj\Debug\net8.0\Xenovora's Doom.sourcelink.json

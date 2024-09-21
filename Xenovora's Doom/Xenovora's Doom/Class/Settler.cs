@@ -20,10 +20,7 @@ namespace Xenovora_s_Doom.Class {
         }
 
         public void CheckStatus() {
-            if ( !isTakenCareOf ) {
-                Health -= 1; //ubírá po 1 HP, když není postava dobře živená
-                Console.WriteLine($"{Name} není dobře živený a ztrácí zdraví. Aktuální zdraví: {Health}.");
-            }
+            Console.WriteLine($"{Name}: Jídlo: {Hunger}, Voda: {Thirst}");
         }
     }
 }

@@ -7,18 +7,24 @@
 
         public Village() {
             Families = new List<Family>();
-            FoodSupply = 2;
-            WaterSupply = 4;
-            WoodSupply = 6;
+            FoodSupply = 100;
+            WaterSupply = 100;
+            WoodSupply = 100;
         }
         public void AddFamily(Family family) { 
             Families.Add(family);
         }
         public void PrintSettlerFamily(string familyName) {
-            Family family = Families.Find(f =>f.FamilyName == familyName);
+            Family family = Families.Find(f => f.FamilyName == familyName);
             if ( family != null ) {
                 family.PrintFamilyMembers();
             }
+        }
+
+        public void PrintSupplies() {
+            Console.WriteLine($"Jídlo: {FoodSupply}.");
+            Console.WriteLine($"Voda: {WaterSupply}.");
+            Console.WriteLine($"Dřevo: {WoodSupply}.");
         }
     }
 }
