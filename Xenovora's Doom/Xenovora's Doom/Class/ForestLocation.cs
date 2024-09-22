@@ -7,42 +7,39 @@
             Console.WriteLine("1) Lovit divokou zvěř.");
             Console.WriteLine("2) Vrátit se do osady.");
             Console.WriteLine("3) Sbírat dřevo.");
+            Console.WriteLine("4) Rozdělat oheň a odpočinout si. Spotřebuje 1 dřevo");
         }
 
 
-        public override void HandleAction(int choice, MainCharacter player, Game game) {
+        public override async void HandleAction(int choice, MainCharacter player, Game game) {
             switch ( choice ) {
                 case 1:
                     Console.WriteLine($"{player.Name} loví zvířata.");
-                    // TODO přidat mechaniku loveni
+                    Item animal = new Item("Zvěř", "Ulovené zvíře", 1, 1); // Max. 1 na slot
+                    if ( player.PlayerInventory.AddItem(animal) ) {
+                        Console.WriteLine("Lov se podařil, ulovil jsi zvěř.");
+                    } else {
+                        Console.WriteLine("Nemáš místo v inventáři na další zvěř.");
+                    }
                     break;
                 case 2:
-                    Console.WriteLine("Vracíš se do osady");
-                    game.ChangeLocation(new VillageLocation(game.GetVillage()));
+                    await game.ChangeLocation(new VillageLocation(game.GetVillage()));
                     break;
                 case 3:
-                    Console.WriteLine("Sbíráš dřevo");
-                    GatherWood(player);
+                    Console.WriteLine($"{player.Name} sbírá dřevo.");
+                    Item wood = new Item("Dřevo", "Nasbírané dřevo", 1, 10); // Max. 10 na slot
+                    if ( player.PlayerInventory.AddItem(wood) ) {
+                        Console.WriteLine("Nasbíral jsi dřevo.");
+                    } else {
+                        Console.WriteLine("Nemáš místo v inventáři nebo už máš maximální množství dřeva.");
+                    }
+                    break;
+                case 4:
+                    await player.Rest();
                     break;
                 default:
                     Console.WriteLine("Neplatná volba.");
                     break;
-            }
-        }
-
-        private void GatherWood(MainCharacter player) {
-            Random rand = new Random();
-            int randomNum = rand.Next(1, 101);
-
-            if(randomNum <=50) {
-                Item wood = new Item("Dřevo", "Užitečné pro osadu na oheň.");
-                if ( player.PlayerInventory.AddItem(wood) ) {
-                    Console.WriteLine("Nasbíral jsi dřevo"); // TODO přidat náhodný počet dřeva
-                } else {
-                    Console.WriteLine("Inventář je plný, nemůžeš nasbírat dřevo.");
-                }
-            } else {
-                Console.WriteLine("Nenašel jsi nic");
             }
         }
     }

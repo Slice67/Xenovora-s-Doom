@@ -15,14 +15,13 @@
             // TODO přidat možnost odevzdat ulovenou kořist nebo dřevo, až bude inventář
         }
 
-        public override void HandleAction(int choice, MainCharacter player, Game game) {
+        public override async void HandleAction(int choice, MainCharacter player, Game game) {
             switch ( choice ) {
                 case 1:
-                    Console.WriteLine($"{player.Name} odpočívá.");
+                    player.Rest();
                     break;
                 case 2:
-                    Console.WriteLine("Vydáváš se do lesa.");
-                    game.ChangeLocation(new ForestLocation());
+                    await game.ChangeLocation(new ForestLocation());
                     break;
                 case 3:
                     int anotherChoice;
@@ -53,10 +52,6 @@
                     Console.WriteLine("Neplatná volba");
                     break;
             }
-        }
-
-        public void Rest(MainCharacter player) {
-            // TODO
         }
     }
 }

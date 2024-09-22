@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\maincharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\maincharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\villagelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\villagelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\forestlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\forestlocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\family.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\family.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\village.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\village.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\settler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\settler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\villagelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\villagelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,24 +19,20 @@
       "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\bandit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\bandit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\maincharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\maincharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|e:\\xenovora-s-doom\\xenovora\u0027s doom\\xenovora\u0027s doom\\class\\settler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA35C17D-136A-4026-9BB6-2B72AF9099E7}|Xenovora\u0027s Doom.csproj|solutionrelative:class\\settler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,24 +42,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Item.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Item.cs",
-              "RelativeDocumentMoniker": "Class\\Item.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Item.cs",
-              "RelativeToolTip": "Class\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "VillageLocation.cs",
+              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\VillageLocation.cs",
+              "RelativeDocumentMoniker": "Class\\VillageLocation.cs",
+              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\VillageLocation.cs",
+              "RelativeToolTip": "Class\\VillageLocation.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T21:30:13.264Z",
+              "WhenOpened": "2024-09-20T19:23:05.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Character.cs",
+              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Character.cs",
+              "RelativeDocumentMoniker": "Class\\Character.cs",
+              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Character.cs",
+              "RelativeToolTip": "Class\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T19:22:28.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Location.cs",
+              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Location.cs",
+              "RelativeDocumentMoniker": "Class\\Location.cs",
+              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Location.cs",
+              "RelativeToolTip": "Class\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T19:22:17.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Settler.cs",
+              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Settler.cs",
+              "RelativeDocumentMoniker": "Class\\Settler.cs",
+              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Settler.cs",
+              "RelativeToolTip": "Class\\Settler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIA9wBUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T19:24:02.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ForestLocation.cs",
+              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\ForestLocation.cs",
+              "RelativeDocumentMoniker": "Class\\ForestLocation.cs",
+              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\ForestLocation.cs",
+              "RelativeToolTip": "Class\\ForestLocation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T19:23:11.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainCharacter.cs",
+              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\MainCharacter.cs",
+              "RelativeDocumentMoniker": "Class\\MainCharacter.cs",
+              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\MainCharacter.cs",
+              "RelativeToolTip": "Class\\MainCharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T19:22:37.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Game.cs",
+              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Game.cs",
+              "RelativeDocumentMoniker": "Class\\Game.cs",
+              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Game.cs",
+              "RelativeToolTip": "Class\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T19:23:51.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TimeManager.cs",
               "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\TimeManager.cs",
               "RelativeDocumentMoniker": "Class\\TimeManager.cs",
@@ -101,179 +147,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T17:07:24.523Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VillageLocation.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\VillageLocation.cs",
-              "RelativeDocumentMoniker": "Class\\VillageLocation.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\VillageLocation.cs",
-              "RelativeToolTip": "Class\\VillageLocation.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwCMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T19:23:05.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Village.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Village.cs",
-              "RelativeDocumentMoniker": "Class\\Village.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Village.cs",
-              "RelativeToolTip": "Class\\Village.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIAwwA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T19:22:06.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Character.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Character.cs",
-              "RelativeDocumentMoniker": "Class\\Character.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Character.cs",
-              "RelativeToolTip": "Class\\Character.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T19:22:28.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Location.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Location.cs",
-              "RelativeDocumentMoniker": "Class\\Location.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Location.cs",
-              "RelativeToolTip": "Class\\Location.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T19:22:17.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Settler.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Settler.cs",
-              "RelativeDocumentMoniker": "Class\\Settler.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Settler.cs",
-              "RelativeToolTip": "Class\\Settler.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAewBUAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T19:24:02.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ForestLocation.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\ForestLocation.cs",
-              "RelativeDocumentMoniker": "Class\\ForestLocation.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\ForestLocation.cs",
-              "RelativeToolTip": "Class\\ForestLocation.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowCIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T19:23:11.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Family.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Family.cs",
-              "RelativeDocumentMoniker": "Class\\Family.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Family.cs",
-              "RelativeToolTip": "Class\\Family.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T16:44:58.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Enemy.cs",
-              "RelativeDocumentMoniker": "Class\\Enemy.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Enemy.cs",
-              "RelativeToolTip": "Class\\Enemy.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAA5wAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T03:53:49.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Bandit.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Bandit.cs",
-              "RelativeDocumentMoniker": "Class\\Bandit.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Bandit.cs",
-              "RelativeToolTip": "Class\\Bandit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T19:28:51.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainCharacter.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\MainCharacter.cs",
-              "RelativeDocumentMoniker": "Class\\MainCharacter.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\MainCharacter.cs",
-              "RelativeToolTip": "Class\\MainCharacter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T19:22:37.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Inventory.cs",
-              "RelativeDocumentMoniker": "Class\\Inventory.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Inventory.cs",
-              "RelativeToolTip": "Class\\Inventory.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T21:30:19.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Game.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Game.cs",
-              "RelativeDocumentMoniker": "Class\\Game.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Game.cs",
-              "RelativeToolTip": "Class\\Game.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowDsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T19:23:51.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Animal.cs",
-              "RelativeDocumentMoniker": "Class\\Animal.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Class\\Animal.cs",
-              "RelativeToolTip": "Class\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T19:22:44.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Xenovora-s-Doom\\Xenovora\u0027s Doom\\Xenovora\u0027s Doom\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T19:21:08.686Z"
             }
           ]
         }

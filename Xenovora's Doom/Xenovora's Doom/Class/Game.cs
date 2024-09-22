@@ -59,8 +59,22 @@
 
         }
 
-        public void ChangeLocation(Location newLocation) {
-            currentLocation = newLocation;
+        public async Task ChangeLocation(Location newLocation) {
+            int staminaCost = 5;
+            
+            if ( player.Stamina >= staminaCost ) { 
+                player.Stamina -= staminaCost;
+
+                Console.WriteLine($"Přesouváš se do {newLocation.Name}.");
+
+                await Task.Delay(2000);
+                currentLocation = newLocation;
+
+                Console.WriteLine($"Dorazil jsi do {newLocation.Name}. Zbývá ti {player.Stamina} energie.");
+                currentLocation.ShowActions();
+            } else {
+                Console.WriteLine("Nemáš dost energie na přesun. Musíš si odpočinout!");
+            }
         }
 
         public Location GetCurrentLocation() {
@@ -68,10 +82,8 @@
         }
 
         public void GameLoop(MainCharacter player) {
+            currentLocation.ShowActions();
             while ( true ) {
-                Console.WriteLine($"\nJsi na místě: {currentLocation.Name}");
-                currentLocation.ShowActions();
-
                 string input = Console.ReadLine();
                 int choice;
                 if ( int.TryParse(input, out choice) ) {
