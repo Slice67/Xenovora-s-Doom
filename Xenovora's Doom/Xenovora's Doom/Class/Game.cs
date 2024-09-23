@@ -61,20 +61,15 @@
         public async Task ChangeLocation(Location newLocation) {
             int staminaCost = 5;
 
-            Console.WriteLine($"Aktuální stamina před cestou: {player.Stamina}");
-
             if ( player.Stamina >= staminaCost ) {
                 player.Stamina -= staminaCost;
-                isInputBlocked = true; // Zablokuj vstup
-
                 Console.WriteLine($"Přesouváš se do {newLocation.Name}.");
-                await Task.Delay(2000); // Simulace času potřebného na přesun
+                await Task.Delay(2000);
                 currentLocation = newLocation;
 
                 Console.WriteLine($"Dorazil jsi do {newLocation.Name}. Zbývá ti {player.Stamina} energie.");
                 currentLocation.ShowActions();
 
-                isInputBlocked = false; // Povolení vstupu
             } else {
                 Console.WriteLine("Nemáš dost energie na přesun. Musíš si odpočinout!");
             }
@@ -93,8 +88,6 @@
                 int choice;
                 if ( int.TryParse(input, out choice) ) {
                     currentLocation.HandleAction(choice, player, this);
-                } else {
-                    Console.WriteLine("Aktuálně probíhá akce, nemůžeš provádět žádné další akce.");
                 }
             }
         }

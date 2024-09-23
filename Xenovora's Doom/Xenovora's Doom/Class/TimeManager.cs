@@ -6,7 +6,6 @@ namespace Xenovora_s_Doom.Class {
         private Village village;
         private MainCharacter player;
         private Game game;
-
         public TimeManager(Village village, MainCharacter player, Game game) {
             this.village = village;
             this.player = player;

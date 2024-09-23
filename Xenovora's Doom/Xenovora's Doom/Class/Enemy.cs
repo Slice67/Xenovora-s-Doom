@@ -13,25 +13,16 @@
         }
 
         public void Attack(MainCharacter target) {
-            if ( IsAggressive ) {
-                Console.WriteLine($"{Name} útočí na {target} a způsobuje {Damage} poškození.");
                 target.Health -= Damage;
-            } else {
-                Console.WriteLine($"{Name} není agresivní a neútočí");
-            }
         }
 
         public void TakeDamage(int amount) {
-            Health -= Math.Clamp(Health - amount,0,100);
-            Console.WriteLine($"{Name} utrpěl {amount} poškození, zbývá {Health} zdraví.");
+            Health -= amount;
+            if ( Health < 0 ) Health = 0;
         }
 
-        public void Flee() {
-            if ( Health < 20 ) {
-                Console.WriteLine($"{Name} má málo zdraví a utíká.");
-            } else {
-                Console.WriteLine($"{Name} se rozhodl zůstat a bojovat.");
-            }
+        public bool IsAlive() {
+            return Health > 0;
         }
     }
 }

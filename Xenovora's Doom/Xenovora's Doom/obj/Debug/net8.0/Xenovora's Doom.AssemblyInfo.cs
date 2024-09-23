@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Xenovora\'s Doom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2789e0c536b3c9e3976af55dde74f9133fe45da0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9489535643362dd05cfec2c564d41b9a519a69b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Xenovora\'s Doom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Xenovora\'s Doom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
