@@ -25,11 +25,11 @@ namespace Xenovora_s_Doom.Class {
         }
 
         private void UpdateGameState() {
-            if ( player.Hunger > 50 && player.Health != 100) {
+            if ( player.Hunger > 50 && player.Health != 100 ) {
                 player.Health++;
             }
 
-            if (player.Hunger == 0 && player.Health != 0 ) {
+            if ( player.Hunger == 0 && player.Health != 0 ) {
                 player.Health--;
                 Console.WriteLine("Měl bys něco sníst!");
             }
@@ -39,10 +39,15 @@ namespace Xenovora_s_Doom.Class {
                 Console.WriteLine("Měl by ses něčeho napít!");
             }
 
-            village.WaterSupply--;
-            village.WoodSupply--;
-            village.FoodSupply--;
+            int totalFoodConsumption = village.Families.Sum(f => f.GetFoodConsumption());
+            int totalWaterConsumption = village.Families.Sum(f => f.GetWaterConsumption());
+            int totalWoodConsumption = village.Families.Sum(f => f.GetWoodConsumption());
 
+            village.FoodSupply -= totalFoodConsumption;
+            village.WaterSupply -= totalWaterConsumption;
+            village.WoodSupply -= totalWoodConsumption;
+
+            // Kontrola zásob
             if ( village.FoodSupply < 0 ) {
                 village.FoodSupply = 0;
                 Console.WriteLine("Zásoby jídla došly!");
@@ -57,11 +62,6 @@ namespace Xenovora_s_Doom.Class {
                 village.WoodSupply = 0;
                 Console.WriteLine("Zásoby dřeva došly!");
             }
-        }
-
-        public void StopTimer() {
-            gameTimer.Stop();
-            gameTimer.Dispose();
         }
     }
 }

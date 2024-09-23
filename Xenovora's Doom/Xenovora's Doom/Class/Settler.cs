@@ -4,14 +4,14 @@ namespace Xenovora_s_Doom.Class {
         public string FamilyName { get; set; }
         public bool isTakenCareOf { get; set; } //jestli je osadník dobře živený
 
-        public Settler(string name, int health, int hunger, int thirst, string familyName)
-            : base(name, health, hunger, thirst) {
+        public Settler(string name, int health, string familyName)
+            : base(name, health) {
             isTakenCareOf = true;
             FamilyName = familyName;
         }
 
-        public Settler(string name, int health, int hunger, int thirst)
-    : base(name, health, hunger, thirst) {
+        public Settler(string name, int health)
+    : base(name, health) {
             isTakenCareOf = true;
         }
 
@@ -20,7 +20,7 @@ namespace Xenovora_s_Doom.Class {
         }
 
         public void CheckStatus() {
-            Console.WriteLine($"{Name}: Jídlo: {Hunger}, Voda: {Thirst}");
+            Console.WriteLine($"{Name}: HP: {Health}");
         }
     }
 }

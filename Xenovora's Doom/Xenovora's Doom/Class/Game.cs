@@ -1,9 +1,10 @@
 ﻿namespace Xenovora_s_Doom.Class {
     internal class Game {
-        private MainCharacter player; // Hlavní postava
+        public MainCharacter player; // Hlavní postava
         private Location currentLocation; // Aktuální lokace
         private Village village;
         private TimeManager timeManager;
+        private bool isInputBlocked = false; // Přidána proměnná pro blokaci vstupu
 
         public Game() {
             player = new MainCharacter("Arwen", 100, 100, 100, 100);
@@ -17,71 +18,75 @@
             // Rodina Luminara
             Family luminara = new Family("Luminara");
             Settler[] luminaraSettlers = {
-                new Settler("Elara", 100, 100, 100),
-                new Settler("Thalion", 100, 100, 100)
+                new Settler("Elara", 100),
+                new Settler("Thalion", 100)
             };
             luminara.AddMember(luminaraSettlers);
 
             // Rodina Stormwind
             Family stormwind = new Family("Stormwind");
             Settler[] stormwindSettlers = {
-                new Settler("Kael", 100, 100, 100),
-                new Settler("Lyra", 100, 100, 100),
-                new Settler("Finn", 100, 100, 100),
-                new Settler("Mira", 100, 100, 100)
+                new Settler("Kael", 100),
+                new Settler("Lyra", 100),
+                new Settler("Finn", 100),
+                new Settler("Mira", 100)
             };
             stormwind.AddMember(stormwindSettlers);
 
             // Rodina Nightshade
             Family nightshade = new Family("Nightshade");
             Settler[] nightshadeSettlers = {
-                new Settler("Draven", 100, 100, 100),
-                new Settler("Selene", 100, 100, 100),
-                new Settler("Nyx", 100, 100, 100)
+                new Settler("Draven", 100),
+                new Settler("Selene", 100),
+                new Settler("Nyx", 100)
             };
             nightshade.AddMember(nightshadeSettlers);
 
             // Rodina Ironwood
             Family ironwood = new Family("Ironwood");
             Settler[] ironwoodSettlers = {
-                new Settler("Garrick", 100, 100, 100),
-                new Settler("Freya", 100, 100, 100),
-                new Settler("Leif", 100, 100, 100),
-                new Settler("Astrid", 100, 100, 100)
+                new Settler("Garrick", 100),
+                new Settler("Freya", 100),
+                new Settler("Leif", 100),
+                new Settler("Astrid", 100)
             };
             ironwood.AddMember(ironwoodSettlers);
 
-            // Přidání rodin do vesnice
             village.AddFamily(luminara);
             village.AddFamily(stormwind);
             village.AddFamily(nightshade);
             village.AddFamily(ironwood);
-
         }
 
         public async Task ChangeLocation(Location newLocation) {
             int staminaCost = 5;
-            
-            if ( player.Stamina >= staminaCost ) { 
+
+            Console.WriteLine($"Aktuální stamina před cestou: {player.Stamina}");
+
+            if ( player.Stamina >= staminaCost ) {
                 player.Stamina -= staminaCost;
+                isInputBlocked = true; // Zablokuj vstup
 
                 Console.WriteLine($"Přesouváš se do {newLocation.Name}.");
-
-                await Task.Delay(2000);
+                await Task.Delay(2000); // Simulace času potřebného na přesun
                 currentLocation = newLocation;
 
                 Console.WriteLine($"Dorazil jsi do {newLocation.Name}. Zbývá ti {player.Stamina} energie.");
                 currentLocation.ShowActions();
+
+                isInputBlocked = false; // Povolení vstupu
             } else {
                 Console.WriteLine("Nemáš dost energie na přesun. Musíš si odpočinout!");
             }
+
+            Console.WriteLine($"Aktuální stamina po cestě: {player.Stamina}");
         }
 
         public Location GetCurrentLocation() {
             return currentLocation;
         }
 
-        public void GameLoop(MainCharacter player) {
+        public void GameLoop() {
             currentLocation.ShowActions();
             while ( true ) {
                 string input = Console.ReadLine();
@@ -89,7 +94,7 @@
                 if ( int.TryParse(input, out choice) ) {
                     currentLocation.HandleAction(choice, player, this);
                 } else {
-                    Console.WriteLine("Neplatný vstup. Zadej číslo akce.");
+                    Console.WriteLine("Aktuálně probíhá akce, nemůžeš provádět žádné další akce.");
                 }
             }
         }

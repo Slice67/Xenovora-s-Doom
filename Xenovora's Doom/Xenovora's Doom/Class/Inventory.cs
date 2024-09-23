@@ -23,7 +23,7 @@ namespace Xenovora_s_Doom.Class {
                     int availableSpace = existingItem.MaxStack - existingItem.Quantity;
                     int toAdd = Math.Min(availableSpace, newItem.Quantity);
                     existingItem.Quantity += toAdd;
-                    Console.WriteLine($"Přidal jsi {toAdd} {newItem.Name}. Nyní máš {existingItem.Quantity}/{existingItem.MaxStack}.");
+                    Console.WriteLine($"Sebral jsi {toAdd} {newItem.Name}. Nyní máš {existingItem.Quantity}/{existingItem.MaxStack}.");
                     return true;
                 } else {
                     Console.WriteLine($"{newItem.Name} už má maximální množství v inventáři.");

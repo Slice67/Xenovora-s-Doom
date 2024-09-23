@@ -17,5 +17,17 @@
                 member.CheckStatus();
             }
         }
+
+        public int GetFoodConsumption() {
+            return Members.Count;
+        }
+
+        public int GetWaterConsumption() {
+            return Members.Count * 2;
+        }
+
+        public int GetWoodConsumption() {
+            return 1;
+        }
     }
 }
