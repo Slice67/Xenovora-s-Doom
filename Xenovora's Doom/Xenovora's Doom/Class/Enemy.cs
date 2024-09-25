@@ -5,11 +5,14 @@
         public bool IsAggressive { get; set; }
         public int Damage { get; set; }
 
-        public Enemy(string name, int health, bool isAggressive, int damage) {
+        public string Rod { get; set; }
+
+        public Enemy(string name, int health, bool isAggressive, int damage, string rod) {
             Name = name;
             Health = health;
             IsAggressive = isAggressive;
             Damage = damage;
+            Rod = rod;
         }
 
         public void Attack(MainCharacter target) {
@@ -23,6 +26,16 @@
 
         public bool IsAlive() {
             return Health > 0;
+        }
+
+        public string SetRod() {
+            if (Rod == "ten" ) {
+                return "";
+            } else if(Rod == "ta") {
+                return "a";
+            } else { 
+                return "o";
+            }
         }
     }
 }

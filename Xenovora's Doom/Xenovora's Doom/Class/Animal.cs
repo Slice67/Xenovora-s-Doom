@@ -1,7 +1,7 @@
 ﻿namespace Xenovora_s_Doom.Class {
     internal class Animal : Enemy {
-        public Animal(string name, int health, bool isAggressive, int damage)
-            : base(name, health, isAggressive, damage) {
+        public Animal(string name, int health, bool isAggressive, int damage, string rod)
+            : base(name, health, isAggressive, damage, rod) {
         }
 
         public void Roam() {

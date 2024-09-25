@@ -107,16 +107,16 @@ namespace Xenovora_s_Doom.Class {
 
             if ( enemyType < 75 ) { // 60% šance na zvíře
                 if ( random.Next(100) < 50 ) {
-                    return new Animal("Jelen", 20, false, 0);
+                    return new Animal("Jelen", 20, false, 0, "ten");
                 } else if ( random.Next(100) < 30 ) {
-                    return new Animal("Zajíc", 10, false, 0);
+                    return new Animal("Srnka", 10, false, 0, "ta");
                 } else if ( random.Next(100) < 20 ) {
-                    return new Animal("Medvěd", 40, true, 15);
+                    return new Animal("Medvěd", 40, true, 15, "ten");
                 } else {
-                    return new Animal("Prase", 30, true, 12);
+                    return new Animal("Prase", 30, true, 12, "to");
                 }
             } else {
-                return new Bandit("Bandita", 40, 15);
+                return new Bandit("Bandita", 40, 15, "ten");
             }
         }
 
@@ -141,7 +141,7 @@ namespace Xenovora_s_Doom.Class {
             if ( player.Health <= 0 ) {
                 Console.WriteLine($"{player.Name} byl poražen!");
             } else {
-                Console.WriteLine($"{enemy.Name} byl poražen!");
+                Console.WriteLine($"{enemy.Name} byl{enemy.SetRod()} poražen{enemy.SetRod()}!");
             }
         }
 

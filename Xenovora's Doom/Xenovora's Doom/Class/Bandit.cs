@@ -1,7 +1,7 @@
 ﻿namespace Xenovora_s_Doom.Class {
     internal class Bandit : Enemy {
-        public Bandit(string name, int health, int damage)
-            : base(name, health, true, damage) {
+        public Bandit(string name, int health, int damage, string rod)
+            : base(name, health, true, damage, rod) {
         }
 
         public void Steal(MainCharacter target) {

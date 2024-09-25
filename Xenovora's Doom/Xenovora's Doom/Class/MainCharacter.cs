@@ -6,13 +6,12 @@
         public Inventory PlayerInventory { get; set; }
 
         public MainCharacter(string name, int health, int hunger, int thirst, int stamina)
-            : base(name, health) { 
+            : base(name, health) {
             Stamina = stamina;
             PlayerInventory = new Inventory();
             Hunger = hunger;
             Thirst = thirst;
         }
-
 
         public async Task Rest(Location currentLocation) {
             if ( currentLocation.Name == "Loduq") {
@@ -34,7 +33,6 @@
                     if ( wood.Quantity == 0 ) {
                         PlayerInventory.RemoveItem(wood);
                     }
-
 
                     Stamina += 20;
                     if ( Stamina > 100 ) {
